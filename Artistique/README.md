@@ -20,6 +20,40 @@ L’installation recrée un dialogue visuel et sonore entre la nature et la tech
 3. **État collectif :**  
    - Tous les visiteurs participent sur la même plante : leur engagement collectif construit ou détruit son évolution.  
 
+### Voici un diagramme d'intéractivité
+
+flowchart TD
+
+
+    %% Scénario interactif pour le projet
+    subgraph "Interface Utilisateur"
+        site["Site Web"]
+    end
+
+    subgraph "Installation Physique"
+        mic["Microphone"]
+        synth["Synthétiseur"]
+        plant["Plante Physique"]
+    end
+
+    subgraph "Backend"
+        server["Serveur"]
+        stream["Diffusion en direct"]
+    end
+
+    %% Connexions
+    %% Site Web interactions
+    site -->|"Envoi de clips vocaux"| server
+    server -->|"Transmission des clips\nvers le synthétiseur"| synth
+
+    %% Interactions physiques
+    mic ---|"Capture de l'ambiance sonore"| server
+    synth ---|"Production sonore vers\nla plante"| plant
+    plant ---|"Réaction et évolution\ndynamique"| stream
+
+    %% Diffusion et feedback
+    stream ---|"Diffusion en direct\nsur le site web"| site
+    plant ---|"Retour visuel et sonore\naux utilisateurs"| site
 
 ## **Parallèle avec les réseaux sociaux**  
 La plante agit comme une métaphore des réseaux sociaux :  
