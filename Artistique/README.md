@@ -4,7 +4,7 @@
 L’installation recrée un dialogue visuel et sonore entre la nature et la technologie :  
 - **Décor hybride :** Des technologies  (écrans CRT, câbles, téléphones) recouvertes de plantes naturelles ou artificielles pour symboliser la coexistence entre ces deux mondes.  
 - **Éclairage évolutif :** Des lumières qui changent subtilement selon l'état de la plante (lumières vives quand elle prospère, tamisées lorsqu’elle dépérit).
-- **Plateforme centrale :** Une table minimaliste accueille le **M5Stack Button**, connectée à un écran affichant la plante numérique en 3D, évoluant en temps réel.  
+- **Plateforme centrale :** Une table minimaliste accueille le **Micro** et le **synthétiseur**, connectés à un écran affichant la plante numérique en 3D, évoluant en temps réel.  
 - **Son spatialisé :** Quatre haut-parleurs positionnés dans les coins diffusent des sons naturels et mélodiques en réponse aux interactions.  
 
 
