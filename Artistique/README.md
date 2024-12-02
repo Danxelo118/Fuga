@@ -22,6 +22,7 @@ L’installation recrée un dialogue visuel et sonore entre la nature et la tech
 
 ### Voici un diagramme d'intéractivité
 
+````mermaid
 flowchart TD
 
 
@@ -54,6 +55,7 @@ flowchart TD
     %% Diffusion et feedback
     stream ---|"Diffusion en direct\nsur le site web"| site
     plant ---|"Retour visuel et sonore\naux utilisateurs"| site
+````
 
 ## **Parallèle avec les réseaux sociaux**  
 La plante agit comme une métaphore des réseaux sociaux :  
