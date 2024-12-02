@@ -2,7 +2,7 @@
 
 ## Plantation
 ### Vue de face
-![Vue de face](Technique/Desktop - 5.png)
+![Vue de face](Technique/Desktop-5.png)
 
 ## Synoptique
 
