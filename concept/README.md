@@ -10,3 +10,7 @@ Le projet invite à réfléchir au rôle de notre attention dans un monde satur�
 - **Expérientiels :** Offrir une expérience immersive où les visiteurs interagissent activement avec une plante numérique, découvrant l’impact de leur engagement collectif sur son développement.  
 - **Émotionnels :** Éveiller une prise de conscience sur le rôle de l’attention dans nos relations avec la technologie et la nature.  
 - **Éducatifs :** Proposer une exploration ludique et métaphorique des cycles de croissance et de décroissance.  
+
+
+## **Botanica**
+**Botanica** est une exposition de la technique d'intégration multimédia par le collège Montmorency. Fuga étant une oeuvre présentant une plante elle s'intègre donc parfaitement dans l'exposition de Botanica. Une plante au milieu de la flore numérique.
