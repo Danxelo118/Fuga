@@ -1,10 +1,71 @@
 # Technique
 
 ## Plantation
-### Vue de face
-![Vue de face](fuga-face.png)
+
+
 
 ## Synoptique
+
+### Installation physique
+
+````mermaid
+graph TD
+    Ordinateur["Ordinateur central"]
+
+    subgraph Matériel_Principal
+        Serveur["Serveur indépendant"]
+    end
+
+    subgraph Éléments_Audio
+        Synthé["Synthétiseur"]
+        Micro["Micro"]
+        HP["Haut-parleurs"]
+        Casque["Casque"]
+    end
+
+    subgraph Éléments_Vidéo
+        TV1["Télévision 1"]
+        TV2["Télévision 2"]
+        TV3["Télévision 3"]
+        Lumières["Éclairage supplémentaire"]
+    end
+
+    subgraph Connectiques
+        CableHDMI["Câble HDMI"]
+        CableEthernet["Câble Ethernet"]
+        AtomePOE["Atome POE"]
+    end
+
+    subgraph Protocoles_Réseau
+        OSC["Protocole OSC"]
+        UDP["Protocole UDP"]
+    end
+
+    %% Connexions
+    Serveur --> |Gère les signaux| Ordinateur
+    Ordinateur --> |Traitement audio| Synthé
+    Ordinateur --> |Entrée audio| Micro
+    Ordinateur --> |Sortie audio| HP & Casque
+
+    Ordinateur --> |Envoi vidéo| TV1 & TV2 & TV3
+    Ordinateur --> |Commandé par| Lumières
+    TV1 --> |Connexion via| CableHDMI
+    TV2 --> |Connexion via| CableHDMI
+    TV3 --> |Connexion via| CableHDMI
+
+    Ordinateur --> |Connexion réseau| CableEthernet
+    CableEthernet --> |Alimentation réseau| AtomePOE
+
+    Ordinateur --> |Données envoyées via| OSC
+    OSC --> UDP
+
+
+
+````
+
+
+
+
 
 ### Web
 Voici un diagrame expliquant les communications entre la plante physique qui sera dans le studio et le site web et la plante virtuelle.
