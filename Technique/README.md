@@ -1,8 +1,8 @@
 # Technique
 
 ## Plantation
-
-
+### Vue de face
+![Vue de face](image_url)
 
 ## Synoptique
 
