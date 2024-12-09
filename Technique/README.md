@@ -4,6 +4,8 @@
 Voici de quoi aura l'air l'installation dans le studio
 ### Vue de face
 ![Vue de face](fuga-face.png)
+![Vue de coter](plantation-side.png)
+![Vue de haut](plantation-sky.png)
 
 ## Synoptique
 
