@@ -51,6 +51,7 @@ flowchart TD
    - Possibilité d'envoyer des clips vocals pour aider la plante à se développer.
 6. **Accessoires :**
    - câblages (HDMI, Ethernet, audio), supports techniques pour projecteurs et autres équipements.
+   - Cartes d'aquisition: audio, vidéo
 
 ### **Logiciels :**  
 1. **Touch Designer**  
