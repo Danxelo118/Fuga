@@ -1,6 +1,7 @@
 # Technique
 
 ## Plantation
+Voici de quoi aura l'air l'installation dans le studio
 ### Vue de face
 ![Vue de face](fuga-face.png)
 
