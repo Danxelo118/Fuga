@@ -48,14 +48,25 @@ flowchart TD
    - Technologie vintage (moniteurs CRT, câbles usés) et végétation intégrée.
 5. **Site Web :**  
    - Diffusion de la plante en temps réel.
-   - Possibilité d'envoyer des clips vocals pour aider la plante à se développer.  
+   - Possibilité d'envoyer des clips vocals pour aider la plante à se développer.
+6. **Accessoires :**
+   - câblages (HDMI, Ethernet, audio), supports techniques pour projecteurs et autres équipements.
 
 ### **Logiciels :**  
-1. **Touch Designer :**  
+1. **Touch Designer**  
 2. **Max :**  
    - Génération des sons et leur modulation par le M5Stack Button.  
 3. **OSC :**  
    - Communication entre le matériel et le logiciel Unity.  
 4. **QLC+ :**  
    - Contrôle des lumières
+5. **Hébergeur web**  
 
+
+## **Devis technique**
+
+Voici ce qui sera fourni par l'école et ce que l'ont devra founrnir nous même.
+
+**École :** Microphone, télévisions, hauts-parleurs et les accessoires nécéssaires à ces derniers. Ainsi que les logiciel
+
+**Nous :** Instruments de musique autres et décors recyclé.
