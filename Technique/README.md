@@ -1,7 +1,7 @@
 # Technique
 
 ## Plantation
-Voici de quoi aura l'air l'installation dans le studio
+Voici de quoi aura l'air l'installation.
 ### Vue de face
 ![Vue de face](fuga-face.png)
 ![Vue de coter](plantation-side.png)
