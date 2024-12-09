@@ -8,7 +8,57 @@ Voici de quoi aura l'air l'installation.
 ![Vue de haut](plantation-sky.png)
 
 ## Synoptique
+````mermaid
+graph TD
+    Ordinateur["Ordinateur central"]
 
+    subgraph Matériel_Principal
+        Serveur["Serveur indépendant"]
+    end
+
+    subgraph Éléments_Audio
+        Synthé["Synthétiseur"]
+        Micro["Micro"]
+        HP["Haut-parleurs"]
+        Casque["Casque"]
+        CarteSon["Carte de son"]
+    end
+
+    subgraph Éléments_Vidéo
+        TV1["Télévision 1"]
+        TV2["Télévision 2"]
+        TV3["Télévision 3"]
+        Lumières["Éclairage supplémentaire"]
+    end
+
+    subgraph Connectiques
+        SwitchPOE["Switch POE"]
+        CableEthernet["Câble Ethernet"]
+    end
+
+    %% Connexions
+    Serveur --> |Gère les signaux| Ordinateur
+
+    %% Connexions Audio
+    CarteSon --> |Connectée à| Ordinateur
+    Synthé --> |Entrée/Sortie audio| CarteSon
+    Micro --> |Entrée audio| CarteSon
+    HP --> |Sortie audio| CarteSon
+    Casque --> |Sortie audio| CarteSon
+
+    %% Connexions Vidéo
+    Ordinateur --> |Envoi vidéo| TV1 & TV2 & TV3
+    Ordinateur --> |Commandé par| Lumières
+    TV1 --> |Connexion via| CableEthernet
+    TV2 --> |Connexion via| CableEthernet
+    TV3 --> |Connexion via| CableEthernet
+
+    %% Réseau
+    Ordinateur --> |Connexion réseau| SwitchPOE
+    SwitchPOE --> |CableEthernet| AtomPOE
+
+
+````
 ### Web
 Voici un diagrame expliquant les communications entre la plante physique qui sera dans le studio et le site web et la plante virtuelle.
 
@@ -51,7 +101,6 @@ flowchart TD
    - Possibilité d'envoyer des clips vocals pour aider la plante à se développer.
 6. **Accessoires :**
    - câblages (HDMI, Ethernet, audio), supports techniques pour projecteurs et autres équipements.
-   - Cartes d'aquisition: audio, vidéo
 
 ### **Logiciels :**  
 1. **Touch Designer**  
