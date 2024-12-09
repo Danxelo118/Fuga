@@ -57,12 +57,6 @@ flowchart TD
     plant ---|"Retour visuel et sonore\naux utilisateurs"| site
 ````
 
-## **Parallèle avec les réseaux sociaux**  
-La plante agit comme une métaphore des réseaux sociaux :  
-- **Engagement constant :** Tout comme une audience en ligne croît avec des publications régulières, la plante nécessite une interaction continue pour grandir.  
-- **Décroissance naturelle :** L'absence de participation entraîne une décroissance, cela souligne la fragilité des relations numériques.  
-
-Cependant, contrairement à la nature impitoyable des réseaux sociaux, **Fuga** invite à un engagement plus apaisé et contemplatif, favorisant une reconnexion réfléchie.  
 
 ### **Moodboard visuel :**  
 - **Technologie recyclée :** Téléphones à cadran, claviers cassés, câblages emmêlés.  
